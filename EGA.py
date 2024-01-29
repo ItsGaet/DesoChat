@@ -1,9 +1,17 @@
 import streamlit as st
 import cohere
+from st_pages import Page, Section, show_pages, add_page_title
 
-st.title("Deso Chatbot") 
-st.link_button(":fire: Desotech", "https://deso.tech")
-st.link_button(":cloud: Linkedin", "https://www.linkedin.com/company/desotech/mycompany/")
+show_pages([
+
+        Section("RAG Chatbot", icon="🎈️"),
+            Page("EGA.py", "C-AGE", "😶‍🌫️"),
+            Page("story.py", "About Us", ":books:"),
+    ]
+)
+
+add_page_title()
+st.caption("🚀 Chabot based on Cohere and RAG 🚀")
 
 # Fetch Cohere API key from Streamlit secrets
 co = cohere.Client('crAvP7FvQ4yVLw7pju7nAHBy9FZmRB5uY6bxgSFB')
@@ -19,7 +27,6 @@ for message in st.session_state.messages:
 
 
 # Process user input
-
 if prompt := st.chat_input("What is up?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     
@@ -28,11 +35,8 @@ if prompt := st.chat_input("What is up?"):
         st.markdown(prompt)
     
     # Make request to Cohere API
-    cohere_response = co.embed(
-        texts=[prompt],
-        model='embed-multilingual-v3.0',
-        input_type='search_query',
-        truncate='END'
+    cohere_response = co.generate(
+        prompt=prompt
     )
 
     # Display assistant's response in the chat
@@ -41,5 +45,4 @@ if prompt := st.chat_input("What is up?"):
 
     # Update session state with assistant's response
     st.session_state.messages.append({"role": "assistant", "content": cohere_response})
-
 
