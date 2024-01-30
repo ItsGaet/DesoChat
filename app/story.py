@@ -5,9 +5,9 @@ add_page_title()
 
 st.markdown(body="**Desotech** è un istituto di formazione all’avanguardia con sede in Italia, specializzato in applicazioni cloud-native. Il nostro obiettivo è fornire servizi e competenze di alto livello alle organizzazioni che desiderano costruire e mantenere le proprie infrastrutture cloud-native o formare il proprio team IT all’uso di queste tecnologie rivoluzionarie che rappresentano il futuro di ogni ambiente di lavoro.")
 
-st.markdown(body="### Esperienza e Impegno")
+st.markdown(body="## Esperienza e Impegno")
 st.markdown(body="Siamo coinvolti in tutto ciò che riguarda l’universo cloud-native da oltre un decennio e operiamo in Italia sotto il marchio Desotech da oltre 5 anni, sviluppando il nostro nome e il nostro valore come centro di consulenza e formazione d’eccellenza.")
-st.markdown(body="### Servizi Offerti:")
+st.markdown(body="## Servizi Offerti:")
 
 st.markdown(body="#### - [Formazione ✨:](https://www.deso.tech/formazione)")
 st.markdown(body="Offriamo corsi approfonditi su tecnologie cloud-native, con formatori certificati per garantire una preparazione completa del vostro team")
