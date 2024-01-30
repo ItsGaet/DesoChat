@@ -1,0 +1,19 @@
+credentials:
+  usernames:
+    desotech:
+      email: bottino@desotech.it
+      logged_in: False # Will be managed automatically
+      name: Nicola Marco Decandia
+      password: qwerty # Will be hashed automatically
+    gae:
+      email: bottino@desotech.it
+      logged_in: False # Will be managed automatically
+      name: Gaetano Abbaticchio
+      password: gae # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
