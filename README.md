@@ -13,6 +13,7 @@ ollama pull mixtral
 ```bash
 ollama serve
 ```
+
 >può dare errore, vuol dire solo che è gia esposto il modello
 
 ## 2. Clone della repo
