@@ -19,7 +19,7 @@ class ChatPDF:
         self.text_splitter = RecursiveCharacterTextSplitter(chunk_size=1024, chunk_overlap=100)
         self.prompt = PromptTemplate.from_template(
             """
-            <s> [INST] Sei un tutor per studenti incaricato di trovare il miglior corso per loro.Usa i seguenti pezzi di retrieve context 
+            <s> [INST] Sei un tutor per studenti incaricato di trovare il miglior corso per loro. Usa i seguenti pezzi di retrieve context 
             per rispondere alla domanda. Se non conosci la risposta, rispondi non lo so. Usa 3 frasi al massimo
              mantenendo la risposta concisa. Rispondi in Italiano. [/INST] </s> 
             [INST] Question: {question} 
