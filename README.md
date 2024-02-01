@@ -21,9 +21,11 @@ ollama serve
 git clone https://github.com/ItsGaet/DesoChat
 ```
 
-## 3. Install Requirements
+```bash
+cd DesoChat
+```
 
-Open a terminal:
+## 3. Install Requirements
 
 ```bash
 pip install -r requirements.txt
