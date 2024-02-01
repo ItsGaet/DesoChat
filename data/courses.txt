@@ -1,0 +1,1294 @@
+Kubernetes Courses
+Kubernetes is essential for managing and orchestrating IT applications. It simplifies deployment and scaling of containerized applications, offers advanced capabilities for redundancy and scalability, and is highly portable across different infrastructures. Learning Kubernetes and participating in training courses enables improved skills and career opportunities in the industry.
+
+With the experience gained on several consulting training projects, we have designed a training path that can take students through DSK courses to discover Kubernetes. We will start with containers to proceed with Kubernetes Vanilla, with that managed by the various public cloud providers (AWS, Azure, Google), until we get to all the tools attached to it: Jenkins, Helm, Istio, Hashicorp Vault, Prometheus and Grafana, Elastic Search, FileBeat and Kibana.
+
+Find out the details of each Kubernetes DSK course by checking out the contents of each tab.
+
+Please note: Our courses are constantly evolving and we continuously modify them to keep up with the latest updates in the covered technologies.
+
+About CKA and CKAD Certifications
+Our Kubernetes training paths are very popular and in demand by developers, IT professionals, and cloud engineers as Kubernetes has become one of the most important management and deployment tools in the world of cloud computing. Desotech courses on Kubernetes offer a wide range of information and practical knowledge about Kubernetes features and capabilities, enabling participants to gain a solid understanding of how to use and manage Kubernetes in real-world environments. Courses on Kubernetes can also help developers and IT professionals develop new skills and knowledge about managing and deploying containerized applications, providing a competitive advantage in an increasingly demanding market and paving the way toward CKA and CKAD certifications.
+
+Certified Kubernetes Application Developer
+The Certified Kubernetes Application Developer (CKAD) certification is among the most recognized for Kubernetes application developers. This certification is offered by the Linux Foundation in collaboration with the Cloud Native Computing Foundation (CNCF). The DSK402 (CKAD Exam Prep) course focuses on the skills needed to create, configure and manage cloud native applications on a Kubernetes cluster.
+
+The CKAD exam is designed to assess developers’ practical knowledge in working with Kubernetes. It includes a series of hands-on exercises in which developers must demonstrate their ability to configure networking, create and manage service accounts, implement best practices for applications on Kubernetes, and more. Passing the CKAD exam demonstrates a solid understanding of Kubernetes application development skills.
+
+The DSK402 (CKAD Exam Prep) course is structured to cover a wide range of key topics. Course objectives include creating and configuring services, managing pods and deployments, using service accounts to control access to resources, using the command line to interact with Kubernetes, and understanding best practices for developing cloud-native applications.
+
+Certified Kubernetes Administrator
+CKA (Certified Kubernetes Administrator ) certification is equally important for system administrators and DevOps engineers involved in managing and administering Kubernetes clusters. The DSK401 (CKA Exam Prep) course focuses on the skills needed to effectively configure and manage a Kubernetes environment in production.
+
+The CKA exam includes a series of hands-on exercises that test administrators’ skills in managing networking, configuring security policies, scaling and monitoring clusters, and troubleshooting common problems. Passing the CKA exam demonstrates a solid understanding of critical operations and best practices for managing Kubernetes clusters.
+
+CKA administrators are able to create and manage robust, reliable and scalable Kubernetes environments. They can deploy storage solutions, configure access and authentication policies, monitor cluster performance, and troubleshoot operational issues. CKA certification provides valuable evidence of the skills and experience needed to successfully support Kubernetes infrastructures in production.
+
+Containerd Introduction (en)
+The course will provide an overview of Containerd, including fundamental concepts such as images, containers, and tasks. Topics such as CNI, logging, namespaces within Containerd, and container import/export will also be examined. The functionality of Nerdctl, an alternative CLI for Containerd, will be presented. In addition, the use of a registry for managing container images will be explained. Finally, the concepts of image creation using Dockerfile and multistage builds with BuildKit will be introduced. Crictl represents an optional topic covered in the course.
+
+COD: DSK101
+Category: Kubernetes
+
+Please note: this course is a mandatory step toward CKA & CKAD exam preparations!
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Familiarity with the Linux operating system
+Proficiency in the operating system command line
+Basic knowledge of networking concepts and protocols
+Basic knowledge of package management conceptsBasic knowledge of storage
+
+Outgoing knowledge/skills
+Understand the installation and configuration of Containerd.
+Gain knowledge of the concept of images, containers, and tasks within Containerd.
+Learn the concepts and use of CNI (Container Networking Interface) for managing container networks.
+Understand how to manage logging within Containerd.
+Deep understanding of the concepts of Containerd namespaces and their importance in container separation and isolation.
+Learn container import and export practices.
+Become familiar with Nerdctl, an advanced user interface for using Containerd.
+Gain skills in managing a registry (registry) for storing and distributing container images.
+Know how to create images using Dockerfile and understand best practices for multistage builds.
+(Optional) Know Crictl and know how to use it as a command line interface for Containerd.
+
+Educational program
+Install Containerd
+Image, Container and Tasks
+CNI
+Logging
+Containerd Namespaces
+Import and Export
+Nerdctl
+Registry
+Creating Images with Dockerfile
+Multi Stage Builds
+Crictl – Optional
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+The price of this one-day course is €700 + VAT.
+
+Kubernetes Introduction (en)
+The course is designed to provide a comprehensive overview of the capabilities of Kubernetes and how to use the system to manage applications in a production environment. The course focuses on the fundamental concepts of Kubernetes, such as Pods, ReplicaSets, Deployments and DaemonSets. You explore methods for interacting with Pods and techniques for using Labels to organize and manage application components. Additionally, you learn how to create and manage Deployments for scalable applications, DaemonSets for infrastructure applications, and Namespaces for object organization and management. We also examine the concepts of services and how to use them to expose applications outside the cluster. With this course,
+
+Requires, as a prerequisite, to have completed the DSK101 course
+
+COD: DSK102
+Category: Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of Linux and the command line.
+Knowledge of basic concepts of containerization and how containers work.
+Familiar with basic networking concepts.
+Basic knowledge of application development principles.
+Familiarity with the basic concepts of cloud computing and virtualized infrastructures.
+
+At the end of the course the participants will be able to:
+Understand the fundamental concepts of Kubernetes and how to use the system to manage applications in a production environment.
+Learn how to create and manage Pods, ReplicaSets, Deployments and DaemonSets for Kubernetes applications.
+Understand how to use Labels to organize and manage application components in Kubernetes.
+Learn how to create and manage services to expose applications outside the cluster.
+Understand how to use Namespaces for organizing and managing objects in Kubernetes.
+Acquire the skills to interact with Pods efficiently and manage them in a production environment.
+Develop the ability to create and manage ReplicaSets to ensure application scalability.
+Learn how to create and manage Deployments for scalable applications efficiently.
+Understand how to create and manage DaemonSets for infrastructure applications.
+Gain in-depth knowledge of Kubernetes and acquire the skills to run applications efficiently in a production environment.
+
+Educational program
+Pods
+Interaction with Pods
+ReplicaSet
+Label
+Deployment
+DaemonSets
+Namespaces
+Services
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Kubernetes Core Architecture
+This course delves into the fundamental concepts of the Kubernetes architecture. The course begins with an overview of Pods, the smallest unit of Kubernetes, and how to interact with them. Next, we discuss ReplicaSets and Labels, which are used to make copies of Pods and identify them. The course continues with a detailed discussion on Deployments, DaemonSets and Namespaces, used to manage applications and services in Kubernetes. We will also discuss using EmptyDir and Dynamic Storage Provisioning, which provide dynamic storage management in Kubernetes.
+
+The course then moves on to managing services through the use of Services and Ingress Rules, which allow you to expose services outside the cluster. We then cover the topic StatefulSet, which allows you to create stateful applications in Kubernetes. The course concludes with a discussion on Etcd Snapshots and Cluster Maintenance, which are essential to keep a Kubernetes cluster healthy and ensure the availability of hosted services. By the end of the course, students will have acquired a solid understanding of the basic architecture of Kubernetes and best practices for its management and maintenance.
+
+COD: DSK103
+Categorie: Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of Linux operating system and command line concepts
+Understanding of the basics of virtualization and containerization
+Experience with managing applications and services on a cloud platform
+Basic knowledge of network concepts and client-server architecture
+Basic knowledge of some application architecture concepts such as load balancing, high availability, scalability and storage management
+
+At the end of the course the participants will be able to:
+Gain in-depth knowledge of the core architecture of Kubernetes
+Learn how to manage Pods and ReplicaSets to scale applications in Kubernetes
+Use Labels, Deployments, and Namespaces to organize and manage your applications in Kubernetes
+Understand the use of EmptyDir and Dynamic Storage Provisioning to manage dynamic storage in Kubernetes
+Learn how to manage services in Kubernetes using Services and Ingress Rules
+Understand the use of StatefulSets to build stateful applications in Kubernetes
+Gain working knowledge of Etcd Snapshots backups and cluster maintenance
+Learn best practices for managing and maintaining a Kubernetes cluster
+
+Educational program
+Pods
+Interaction with Pods
+ReplicaSet
+Label
+Deployment
+DaemonSets
+Namespace
+EmptyDir
+Dynamic Storage Provisioning
+Services
+Ingress Rules
+StatefulSet
+Etcd Snapshots
+Cluster maintenance
+
+Duration – 2 days
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Lingua
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Kubernetes Resource Management (en)
+Kubernetes Resource Management is an advanced course on Kubernetes that covers a wide range of topics, including Load Balancer, EmptyDir, Dynamic Storage Provisioning, ConfigMaps, Secrets, Ingress Rules, Deployment and DaemonSet Update, Init Containers, Lifecycle Hooks, Resource Requirements, Limit Range, Resource Quota, StatefulSet, Authorization (RBAC), Stout & Sterr, Network Policies, and Kustomize. The course provides practical and theoretical skills for advanced container management in Kubernetes, using recommended tools and best practices.
+
+Requires, as a prerequisite, to have completed DSK101 and DSK102 courses or have equivalent knowledge.
+
+COD: DSK200
+Category: Kubernetes
+
+Please note: This course is a required step toward CKA & CKAD exam preparations!
+
+The completion of this course, along with the DSK201 and DSK202 courses, provides the skills necessary to enter all DSK intermediate and advanced level courses.
+
+Teaching methodology:
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites:
+Completion of DSK101 and DSK102 courses (or have equivalent knowledge).
+
+Basic knowledge of Kubernetes and fundamental concepts of container orchestration.
+
+Familiarity with basic Kubernetes commands and management of pods, deployments, and services.
+
+Understanding of networking concepts within Kubernetes and storage resources.
+
+Basic knowledge of security concepts and authentication and authorization tools used in Kubernetes.
+
+Experience configuring and operating a local Kubernetes development environment or production cluster.
+
+Knowledge of the main tools and utilities used for Kubernetes administration, such as kubectl and Helm.
+The above listed prerequisites ensure that course participants have a solid foundation and basic understanding of Kubernetes and its components. This allows them to take full advantage of the DSK200 course, which focuses on advanced and in-depth topics related to container administration and management in a Kubernetes environment.
+
+At the end of the course the participants will be able to:
+Understand the use of Load Balancer and External Name to allow access to external services from the Kubernetes cluster.
+Become familiar with the use of EmptyDir as a temporary volume within a pod.
+Learn Dynamic Storage Provisioning practices for dynamic storage management.
+Understand Reclaim Policy and proper management of storage volumes.
+Use ConfigMaps to separate application configuration from source code.
+Securely manage sensitive information using Secrets and understand the different types.
+Set up and properly configure Ingress rules for traffic routing.
+Update Deployment and DaemonSet implementations seamlessly.
+Use Init Containers to perform pre-start operations and manage Lifecycle Hooks.
+Define and manage container resource requirements and limits, including Limit Range and Resource Quota.
+Use StatefulSet to reliably manage Stateful applications.
+Implement and manage role-based authorization (RBAC).
+Properly manage stdout and stderr for container log management.
+Understand and apply Network Policies to control network communication between pods.
+Use Kustomize as a tool for managing Kubernetes configurations.
+
+Educational program
+Day 1
+
+Load Balancer and External Name
+EmptyDir
+Dynamic Storage Provisioning
+Reclaim Policy
+ConfigMaps
+Secrets
+Secrets Type
+Ingress Rules
+Deployment Update
+DaemonSet Update
+Day 2
+
+Init Containers
+Lifecycle Hooks
+Resource Requirements, Limits
+Limit Range
+Resource Quota
+StatefulSet
+Authorization (RBAC)
+Stout & Sterr
+Understrand Network Policies
+Kustomize – Trainer Demo
+
+Duration – 2 days
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+The price of this two-day course is € 1000 + VAT.
+
+Kubernetes Install, Configure & Manage (en)
+This course provides a comprehensive overview of managing and administering a Kubernetes cluster. During the course, students will learn how to install Kubernetes using kubeadm, interpret and alter the kubeconfig file, perform cluster inspection, and install Cilium for networking and security management.
+
+Instruction on how to expand the cluster, check status, configure the load balancer, perform cluster maintenance, and manage upgrades will also be provided. Topics also include Ingress, pod autoscaling, using the Kubernetes dashboard, etcd snapshots, and high-availability control plane configuration. The course will provide students with a solid foundation to begin successfully managing a Kubernetes cluster.
+
+COD: DSK201
+Categorie: Kubernetes
+
+Please note: this course is a mandatory step toward preparation for the CKA exam!
+
+Completion of this course, along with the DSK200 and DSK202 courses, provides the skills necessary to access all intermediate and advanced level DSK courses.
+
+Teaching methodology:
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites:
+Have taken the DSK101 and DSK102 courses or have equivalent knowledge
+Basic knowledge of Linux: It is helpful to be familiar with the Linux operating system and the command line, as many of the Kubernetes administration tasks require the use of Linux commands and tools.
+Understanding of containerization concepts: It is advisable to have a basic understanding of containerization concepts and to understand how containers are used to isolate and deploy applications.
+Familiarity with basic Kubernetes concepts: It is advisable to have a basic understanding of how Kubernetes works, such as the concepts of pod, service, deployment and namespace, and how resources are managed within a Kubernetes cluster.
+Networking knowledge: It is useful to have an understanding of networking concepts, such as IP addressing, ports, protocols and routing, as Kubernetes involves networking logic to enable communication between cluster components.
+Command line experience: It is important to be familiar with using the command line (bash) to interact with the operating system and administration tools, as shell commands will be used to manage the Kubernetes cluster.
+Basic knowledge of operating systems and system administration: It is advisable to have a general knowledge of operating systems and basic system administration operations, such as managing processes, services, and configuration files.
+
+At the end of the course the participants will be able to:
+Understand the basic concepts of Kubernetes and its role in container management.
+Install and configure a Kubernetes cluster using kubeadm.
+Properly configure kubeconfig files to allow access and authentication to the cluster.
+Inspect and verify the status of the cluster using control and monitoring tools.
+Install and configure a CNI for networking and security management.
+Expand the cluster by adding new nodes to scale resources and improve performance.
+Check and monitor the status of the cluster to ensure its stability and proper functioning.
+Configure and use the LoadBalancer to expose the services contained in the cluster.
+Perform cluster maintenance, including backups, resource monitoring, and patch application.
+Configure and use Ingress to expose HTTP-controlled services outside the cluster.
+Use Horizontal Pod Autoscaler to dynamically adjust resources based on workload.
+Use the Kubernetes dashboard for visualizing and managing cluster resources.
+Properly perform Kubernetes cluster upgrade following recommended procedures.
+Perform etcd snapshots to ensure security and backup of cluster configurations.
+Configure the Kubernetes control plane in a highly available (HA) architecture to ensure cluster business continuity in case of failure.
+
+Educational program
+Understand the basic concepts of Kubernetes and its role in container management.
+Install and configure a Kubernetes cluster using kubeadm.
+Properly configure kubeconfig files to allow access and authentication to the cluster.
+Inspect and verify the status of the cluster using control and monitoring tools.
+Install and configure a CNI for networking and security management.
+Expand the cluster by adding new nodes to scale resources and improve performance.
+Check and monitor the status of the cluster to ensure its stability and proper functioning.
+Configure and use the LoadBalancer to expose the services contained in the cluster.
+Perform cluster maintenance, including backups, resource monitoring, and patch application.
+Configure and use Ingress to expose HTTP-controlled services outside the cluster.
+Use Horizontal Pod Autoscaler to dynamically adjust resources based on workload.
+Use the Kubernetes dashboard for visualizing and managing cluster resources.
+Properly perform Kubernetes cluster upgrade following recommended procedures.
+Perform etcd snapshots to ensure security and backup of cluster configurations.
+Configure the Kubernetes control plane in a highly available (HA) architecture to ensure cluster business continuity in case of failure.
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+The price of this one-day course is €750 + VAT.
+
+Kubernetes Application Management
+This course is designed to provide a comprehensive and detailed overview of Kubernetes, giving students the skills they need to work effectively with this powerful container orchestration platform.
+
+During the course, students will learn how to securely manage container image credentials using Image Pull Secrets. Deployment patterns for pods will be explored, including common patterns for scaling, load balancing, and ensuring container reliability. In addition, the different container restart policies and options available for handling errors and outages will be presented.
+
+The course will also explore the concept of Jobs and CronJobs, enabling students to plan and execute ad hoc or scheduled tasks based on specific time intervals. BlueGreen and Canary deployment strategies will be presented, allowing new versions of applications to be introduced in a safe and controlled manner.
+
+Security will be another key aspect of the course, with a section devoted to SecurityContexts, which allow specific security policies to be applied to pods and containers. Students will learn how to interact with the Kubernetes cluster via the command line and use its APIs to manage cluster resources.
+
+The course will also introduce advanced concepts such as Custom Resource Definitions that allow Kubernetes resources to be extended to fit specific application needs. In addition, the concepts of ephemeral containers, which can be used for debugging and rapid pod maintenance, will be presented.
+
+The course requires, as prerequisites, the completion of  DSK101, DSK102, and DSK200 or have equivalent knowledge.
+
+COD: DSK202
+Category : Kubernetes
+
+Please note: this course is a mandatory step toward preparation for the CKAD exam!
+
+Completion of this course, along with the DSK200 and DSK201 courses, provides the skills necessary to access all intermediate and advanced level DSK courses.
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the tool, for each of the topics covered during the course.
+
+Prerequisites
+To have a complete knowledge of DSK101, DSK102 and DSK200 courses, or have equivalent knowledge.
+Basic knowledge of containerization concepts: It is helpful to have a general understanding of what containers are and how they are used to isolate and deploy applications.
+Familiarity with basic Kubernetes concepts: It is advisable to have a basic understanding of how Kubernetes works, e.g., cluster structure, pod, service and replication concepts, as well as resource management.
+Experience with the command line: It is important to be familiar with the use of the command line to interact with the operating system and administration tools, as most interactions with the Kubernetes cluster will be through a shell.
+Knowledge of networking concepts: It is helpful to understand the basics of networking concepts such as IP addressing, ports and protocols, as Kubernetes involves networking to enable communication between components.
+Basic knowledge of operating systems and system administration: It is advisable to have a general knowledge of operating systems and basic system administration operations, such as process and service management.
+
+At the end of the course the participants will be able to:
+Understand and manage container image credentials using Image Pull Secrets.
+Explore pod design patterns and apply strategies for load balancing, scalability, and reliability.
+Understand container restart policies and apply best practices for error and outage management.
+Plan and execute ad hoc or scheduled jobs using Kubernetes Jobs and CronJobs concepts.
+Apply release strategies such as BlueGreen Deployment and Canary Deployment to release new versions of applications in a safe and controlled manner.
+Use security contexts (Security Contexts) to apply security policies to pods and containers.
+Interact with Kubernetes via the command line and use Kubernetes APIs to manage cluster resources.
+Extend the Kubernetes object model using Custom Resource Definitions to meet specific application requirements.
+Understand the use of temporary containers (ephemeral containers) for debugging and rapid pod maintenance.
+
+Educational program
+Image Pull Secrets
+Pods Patterns
+Restart Policies
+Jobs & CronJobs
+BlueGreen Deployment
+Canary Deployment
+Security Contexts
+Interacting with Kubernetes
+Kubernetes APIs
+Custom Resource Defintions
+Ephemeral Containers
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+The price of this one-day course is €750 + VAT.
+
+Helm
+The course will introduce a packaging solution linked to the Kubernetes platform, addressing the Helm tool and describing its benefits and features, and will then continue with the theoretical and practical aspects that will help the student understand the packaging and templating logic used by the tool. In addition, the course includes lab-based exercises where the student will see firsthand installing and using Helm to implement packaged applications . The course will take the developer or system administrator to a more high-level approach by managing the objects that make up a complete application from a single point.
+
+COD: DSK203
+
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Good knowledge of Kubernetes
+Good knowledge of YAML/JSON
+Know at least 1 programming language
+Have achieved the knowledge of the DSK101,  DSK102 and DSK202 courses
+
+At the end of the course the participants will be able to:
+Know how to explain what Helm is
+Know how to install Helm
+Knowing how to search for Chart Helms from the command-line and from the web portal
+Knowing how to add Repositories and draw from the Charts contained
+Knowing how to identify the default parameters of the chart and alter them at runtime
+Know how to install and remove Helm Charts
+Know how to update a Release installed via Helm
+Know how to create your own Chart
+Knowing how to enter the versions in the description of the Charts
+Knowing how to create your own Repository and upload the Chart to it
+
+Educational program
+Install and configure Helm.
+Create reproducible builds of Kubernetes applications.
+Share apps like Helm chart.
+Run third-party applications saved as Helm charts.
+Manage versions of Helm packages.
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Kubernetes Storage
+The DSK204 course is aimed at teaching how to interact with persistent, ephemeral, temporary volumes with Kubernetes .
+
+We will deepen the issues concerning the Container Storage Interface (CSI) using the Opensource project LongHorn.
+
+It requires, as prerequisites, to have achieved the knowledge of the DSK101, DSK102, DSK201 and DSK202 courses
+
+COD: DSK204
+
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+
+Knowledge of DSK101, DSK102, DSK201 and DSK202 courses
+Good knowledge of Kubernetes
+Good knowledge of YAML/JSON
+Know how to distinguish the types of storage (DAS, NAS, SAN)
+Know the differences between block, file, or object storage
+
+Educational program
+Volumes
+Persistent Storage
+Local
+NFS
+Install LongHorn
+StorageClass
+StatefulSet
+Generic Ephemeral volumes
+Reclaim Policy
+Storage AccessMode
+CSI Volume Cloning
+Expand Volume
+Snapshot and Restore
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Prometheus and Grafana
+The course will deal with the concepts of the monitoring solution in more depth through Prometheus and related tools, it will then continue with the theoretical and practical aspects that will help the student to integrate the monitoring function by analyzing the metrics through the Grafana graphical interface . Furthermore, the course includes exercises in a laboratory environment where the student will see firsthand the use of the Dashboards for sampling the metrics . The course will lead the developer or system administrator to a more direct approach to application and infrastructure monitoring.
+
+It requires, as prerequisites, to have achieved the knowledge of the DSK101, DSK102 and DSK201 courses (or have equivalent knowledge).
+
+COD: DSK205
+
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work to complete exercises that will provide practical experience in the use of the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Knowledge of DSK101  DSK102 and DSK201 courses
+Good knowledge of Kubernetes
+Good knowledge of YAML/JSON
+Knowledge of monitoring systems
+
+Educational program
+Introduction to monitoring
+Kube-state-metrics installation
+Alert manager installation
+Prometheus installation
+Node-exporter installation
+Graphana installation
+Query Basics
+Query Operators
+Grafana Dashboards
+Build Kubernetes Dashboard
+Alarm management
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+EFK stack
+The course will address the more in-depth concepts for the Log recording solution through the Elasticsearch stack, then continue with the theoretical and practical aspects that will help the student to integrate the logging function by indexing and searching the logs transmitted to Elasticsearch. Furthermore, the course includes exercises in a laboratory environment where the student will see firsthand the use of the Kibana graphical dashboard by analyzing the read and indexed logs. The course will lead the developer or system administrator to a more centralized approach to keeping, searching and analyzing logs.
+
+COD: DSK206
+
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+
+Knowledge of courses DSK101  DSK102  DSK201
+Good knowledge of Linux and basic knowledge of Kubernetes
+Good knowledge of YAML/JSON
+Know at least 1 programming language.
+
+Educational program
+Install and configure an Elasticsearch cluster.
+Install and configure Kibana.
+Use of filebeat and meticbeat for log and metic ingestion.
+Monitor the EFK cluster.
+Securing the cluster, encrypting the transport network.
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Lingua
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Jenkins
+The course is aimed at teaching how to use Jenkins, starting from the installation of the same up to the daily management and drafting of Pipelines that allow integration with docker and / or Kubernetes.
+
+COD: DSK207
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of linux commands
+Basic knowledge of Linux operating system
+Fair knowledge of software development
+Basic knowledge of docker and kubernetes
+Basic knowledge of text editor on terminal (vi,vim,nano)
+
+At the end of the course the participants will be able to:
+Theory
+Understand the Jenkins architecture
+Understand the various Jenkins workflows
+Understand the use of articats and fingerprints
+Practice
+
+Install Jenkins on VMs
+Run builds on Jenkins
+Gestire la security in Jenkins
+Parameterize builds
+Configure Pipelines
+
+Educational program
+Building in Jenkins
+Building from SCM
+Working with Artifacts and Fingerprints
+Security in Jenkins
+Parameterizing Builds
+Build Triggers
+Building a Jenkins Pipeline
+Deploying a Docker Container with Jenkins Pipelines
+Deploying to Kubernetes with Jenkins Pipelines
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Elastic Kubernetes Service
+The course is aimed at teaching how to install EKS on the Amazon cloud and how to use the core components of the tool itself.
+
+COD: DSK208
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of linux commands
+Basic knowledge of Linux operating system
+Basic knowledge of AWS public cloud
+Basic knowledge of text editor on terminal (vi,vim,nano)
+
+At the end of the course the participants will be able to:
+Theory
+Understand the EKS installation process
+Understand the use of the kubeconfig
+Understand how services work
+Understand the storage model in kubernetes
+Understand how statefulset works
+Practice
+Run EKS installer
+Manipulate kubeconifg files
+Definition of kubernetes service
+Configuration of the various Autoscalers available in EKS
+Use the command set: eksctl
+Upgrade an eks cluster
+Define a statefulset for your application
+
+Educational program
+EKS Installation
+Kubeconfig
+Services
+Install Kube Ops View
+Horizontal Pod Autoscaler
+Vertical Pod Autoscaler
+Cluster autoscalers
+Eksctl CLI
+Upgrade Cluster
+Dynamic storage provisioning
+CSI Elastic File System
+StatefulSet
+
+Duration – 2 days
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Tanzu Kubernetes Grid
+The course covers a number of topics essential to effectively using the Tanzu Kubernetes Grid. Specifically, the course begins with preparing the client and vSphere for Tanzu Kubernetes Grid installation, followed by creating the management cluster and Tanzu clusters. The course also explores Tanzu Kubernetes addons and the importance of cluster monitoring and backup. By the end of the course, students will be able to use Tanzu Kubernetes Grid effectively and safely.
+
+COD: DSK209
+Category: Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites:
+Basic knowledge of Kubernetes
+Basic knowledge of vSphere
+Basic knowledge of networking and security
+Basic knowledge of operating systems and scripting (preferably Linux)
+
+At the end of the course the participants will be able to:
+Preparing the client for cluster management
+Configuring vSphere as the cluster management platform
+Creating a management cluster for managing Tanzu Kubernetes clusters
+Creating Tanzu Kubernetes cluster
+Install and manage add-ons for Tanzu Kubernetes cluster
+Monitor Tanzu Kubernetes cluster using integrated solutions
+Tanzu Kubernetes cluster backup for data security and redundancy.
+
+Educational program
+Prepare Client
+Prepare vSphere
+Management Cluster
+Create Tanzu Clusters
+Subsidiary Kubernetes addons
+Tanzu Kubernetes Monitoring
+Download Kubernetes backup
+
+Duration – 1 day
+
+Delivery – Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser – Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+FluxCD
+The course focuses on using FluxCD to automate application deployment in a Kubernetes cluster. During the course, students will learn how to install FluxCD, initialize a Git repository, and use Git to update cluster resources. The course also covers how FluxCD handles manual changes to cluster resources and how to monitor the cluster with Prometheus.
+
+COD: DSK210
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+
+The “FluxCD” course is suitable for developers, systems engineers and software architects who want to automate release management in Kubernetes using Flux. A basic knowledge of Kubernetes and Git is required to take the course.
+
+Install and configure Flux in Kubernetes to automate application release
+Initialize a Git repository for versioning Flux configurations
+Update cluster resources through Git and see how Flux reacts to manual changes
+Monitor Flux with Prometheus to ensure assets are always aligned with versions specified in the Git repository
+Learn to disable Flux temporarily or permanently when needed for manual changes or other operations.
+
+Educational program
+Installation
+Initialize the Git repository
+Update cluster resources using Git
+Flux reaction to manual edits
+Monitoring with Prometheus
+Get rid of Flux
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Kubernetes Install and Configuration
+The course is aimed at those who want to learn how to use Kubernetes as a container orchestration system. We start by installing Kubernetes with Kubeadm, and list the fundamentals of using clients and kubeconfig to interact with your cluster. We also examine the role of the kubelet in monitoring and managing cluster nodes. We then proceed with the implementation and development of the cluster, and explore the installation of Calico to ensure network security. Teaches how to configure LoadBalancer and StorageClass for load balancing and storage management. Additionally, the course focuses on the importance of cluster upgrade and etcd snapshot creation for data backup.
+
+COD: DSK211
+Categorie: Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of Linux and the command line
+Experience with virtualization and creating virtual machines
+Familiarity with the concepts of containerization and container orchestration
+Knowledge of the fundamental principles of TCP/IP networking and the HTTP protocol.
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Vault Introduction
+The course is aimed at teaching how to perform a HashiCorp Vault installation in a Kubernetes cluster and how to use the core components of the tool itself. You will understand the architecture of HashiCorp Vault in Kubernetes and understand how HashiCorp Vault provides Encryption As A Service through identity management and authentication.
+
+COD: DSH102
+CATEGORY: HasciCorp
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of linux commands
+Basic knowledge of Linux operating system
+Basic knowledge of text editor on terminal (vi,vim,nano)
+Fair knowledge of kubernetes
+
+At the end of the course the participants will be able to:
+
+Theory
+Understand the challenges that the Secret Management problem introduces
+Understand HashiCorp Vault architecture in Kubernetes
+Understand the method in which HashiCorp Vault provides Encryption As A Service (EAAS)
+Practice
+Installing HashiCorp Vault on a Kubernetes cluster
+Management of the vault where the secrets are stored
+Storage e retrieval di secret in/da HashiCorp Vault
+Authorization policy writing within HashiCorp Vault
+Identity and authentication management within HashiCorp Vault
+Overview and basic use of the UI (User Interface) provided by HashiCorp Vault
+
+Educational program
+Installation
+Unsealing
+Secret Engines
+Policies
+Authentication
+Identities
+Vault UI
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+Instructor: English
+Workshops: English
+Slides: English
+
+Kubernetes Advanced Networking (en)
+This course provides in-depth training on advanced network configuration and application security in Kubernetes. You will explore the implementation of a powerful CNI such as Cilium and learn how to manage pod connectivity. You will delve into how Kube Proxy works and traffic routing strategies. The course will also cover topics such as internal and external traffic policies, session affinity, inter-cluster communication, DNS configuration, and encryption of data in transit. You will be able to implement advanced solutions to ensure security and optimize the performance of Kubernetes applications.
+
+By participating in this course, you will gain advanced skills to manage complex networks and improve the security of your applications in a Kubernetes environment. You will develop your professional skills as a container and orchestration expert and be ready to tackle the most demanding challenges in the field of distributed systems management.
+
+COD: DSK301
+Category : Kubernetes
+
+Teaching Methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites:
+
+Experience configuring Kubernetes: it is preferable to have hands-on experience configuring a Kubernetes cluster, including use of tools such as kubectl and understanding of YAML manifest files.
+
+Networking knowledge: it is helpful to have a solid understanding of basic networking principles, including concepts such as IP addressing, subnetting, routing, and network protocols.
+
+Familiarity with security policies: it is advisable to have a general understanding of application security policies, such as authentication, authorization, and encryption.
+
+Basic knowledge of cybersecurity concepts: it is helpful to have a basic understanding of common security threats and recommended practices to protect applications and data.
+
+Familiarity with containerization concepts: it is advisable to have a basic understanding of containerization concepts, such as Docker and resource isolation principles.
+
+At the end of the course the participants will be able to:
+Understand in depth advanced network configuration in a Kubernetes environment, gaining skills to manage pod connectivity and optimize traffic routing.
+Learn the installation and configuration of Cilium, a Kubernetes networking plugin, to ensure reliable, high-performance connectivity between pods.
+Learn how to use the Kube Proxy with IPTABLES and IPVS to implement efficient and scalable traffic routing strategies within the Kubernetes cluster.
+Develop skills to manage Kubernetes application security, including traffic policies, session affinity, and encryption of data in transit.
+Explore communication between multiple clusters and gain skills to configure reliable and secure communication between different Kubernetes clusters.
+Understand and configure essential network components in Kubernetes, such as Endpointslices, Multiple IngressClass, Network Policy Advanced and Gateway API.
+Deepen knowledge of key concepts such as Kubernetes DNS, Kubernetes CoreDNS and integration with external DNS services.
+Gain advanced skills to improve security and optimize Kubernetes application performance through proper configuration of network security policies.
+
+Educational program
+Installing Cilium
+Installing the Sample Application
+Pod Connectivity Fundamentals
+Understanding Kube Proxy with IPTABLES
+Understanding Kube Proxy with IPVS
+External and Internal TrafficPolicy
+Session Affinity
+HostNetwork
+Endpointslices
+Multiple IngressClass
+Network Policy Advanced
+Network Policy Scenario
+Kubernetes DNS
+Kubernetes CoreDNS
+External dns
+Encrypting data in Transit
+Gateway API
+Multi Cluster communications
+
+Duration – 2 days
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+The price of this two-day course is € 1100 + VAT.
+
+Kubernetes Security (en)
+This course covers a wide range of topics essential to ensuring security and compliance in a Kubernetes environment. Students will learn how to configure auditing, manage authentication and authorization, use OPA to define custom security policies, implement security restrictions, and enable encryption. Several tools such as Kube-Bench, Notary and Falco will also be explored to improve cluster security. The course provides a solid foundation for protecting and maintaining compliance of your Kubernetes environment.
+
+COD : DSK303
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+It is strongly recommended to have completed the DSK101, DSK102, DSK200 and DSK201 courses.
+
+Fair knowledge of Kubernetes: it is critical to have a good understanding of the fundamental concepts of Kubernetes, such as creating and managing pods, services, and network resources.
+
+Familiarity with cybersecurity: it is advisable to have a basic understanding of cybersecurity principles, such as authentication, authorization, encryption.
+
+Experience with systems and network administration: it is helpful to have basic skills in systems administration, including concepts such as file systems, access permissions, process management, and network configuration.
+
+Good knowledge of containers: it is critical to be familiar with basic container concepts, such as creating and running containers, image management, and configuring container networks.
+
+Familiarity with Kubernetes security best practices: it is helpful to have knowledge of Kubernetes-specific security best practices, such as configuring roles and permissions, container image management, and network policies.
+
+At the end of the course the participants will be able to:
+Understand the main concepts of security and compliance in a Kubernetes environment.
+Configure auditing in the Kubernetes cluster to monitor security activities and events.
+Manage authentication and authorization in the cluster using different strategies and technologies.
+Use Open Policy Agent (OPA) to define and enforce custom security policies in the cluster.
+Apply Kubernetes Security Contexts to define security restrictions on pods and containers.
+Enable encryption at rest on the Kubernetes cluster.
+Implement system hardening techniques using tools such as AppArmor to reduce attack surfaces.
+Use RuntimeClass with gVisor to provide advanced container runtime isolation.
+Use Kube Bench to assess cluster security against Center for Internet Security (CIS) guidelines.
+Assess cluster compliance against CIS guidelines using the CIS Assessment Tool.
+Analyze container images to identify and mitigate security vulnerabilities.
+Digitally sign container images using Notary to ensure their authenticity and integrity.
+Monitor suspicious activity in the cluster using Falco, a rule-based threat detection tool.
+
+Educational program
+Auditing
+Authentication
+OIDC Authentication with LDAP
+OPA – Part 1
+OPA – Part 2
+Pod Service Account
+Security Context
+Encryption at Rest
+System Hardening with AppArmor
+Kube Bench
+Image Analysis
+Sign image with Notary
+CIS Assesment Tool
+RuntimeClass with gVisor
+Falco
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+The price of this two-day course is € 1100 + VAT.
+
+Kubernetes Scheduler
+The course will address the concepts of  Kubernetes workload assignment , then continue with theoretical explanations and practical demonstrations that will help the student to control the assignment of resources and the  destination of the Pods. The course includes exercises in a laboratory environment where the student will be able to apply what is being addressed by consolidating the concepts. The course will lead the developer or system administrator to have more decision-making power in assigning certain resources to certain nodes.
+
+Requires, as prerequisites, to have completed the  DSK201  or  DSK202 courses.
+
+COD: DSK305
+
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+
+Basic knowledge of linux commands
+Basic knowledge of Linux operating system
+Basic knowledge of TCP/IP stack
+Basic knowledge of text editor on terminal (vi,vim,nano)
+Good knowledge of Kubernetes (having completed DSK201  or  DSK202 courses ).
+
+At the end of the course the participants will be able to:
+Theory
+Understand the main operation of the scheduler
+Understand the use of taints and tolerations
+Understand the scheduler performance tuning process
+Understand the various cases of pod eviction
+Practice
+Configure pods with various scheduling options
+Configurare taints e tolerations
+Configurare pod affinity/anti-affinity
+Configurare node affinity/anti-affinity
+Configurare Priority class
+Manage pod eviction cases
+
+Educational program
+Kubernetes Scheduler
+Taints and Tolerations
+Assigning Pods to Nodes
+Pod Affinity, Node Affinity and anti-affinity
+Pod Spread Topology
+Pod Overhead
+PriorityClassName
+QoS-classes
+Resource Bin Packing for Extended Resources
+Eviction Policy
+Scheduling Framework
+Scheduler Performance Tuning
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Istio
+The course focuses on the Istio open source service mesh platform. Topics covered include installing Istio, injecting it into a Kubernetes cluster, managing ingress and egress traffic, security, monitoring, deploying Blue Green and Canary, adding JWT authentication, using of diagnostic tools and more. The course includes trainer demos and labs to provide hands-on experience with Istio. Attendees will learn how to use Istio to improve the reliability, security, and visibility of their applications on Kubernetes.
+
+COD: DSK306
+Category : Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+
+Basic knowledge of Kubernetes and cluster management tools
+Basic knowledge of the YAML language
+Familiarity with microservices architectures and monitoring techniques
+Basic experience using monitoring tools like Prometheus and Grafana
+Basic knowledge of security concepts in Kubernetes
+
+At the end of the course the participants will be able to:
+Install Istio and inject it into a Kubernetes cluster
+Manage inbound and outbound traffic using Istio
+Use tools like Jaeger, Prometheus, Grafana and Kiali for tracking
+Set up and use Blue Green and Canary distribution
+Use Istio to improve application security on Kubernetes
+Add JWT authentication for end user authentication
+Use diagnostic tools for troubleshooting.
+
+Educational program
+Install Istio
+Istio Injection
+Controlling Ingress Traffic
+Install Jaeger
+Install Prometheus and Grafana
+Install Kiali
+Routing
+Blue Green and Canary Deployments
+Controlling Egress Traffic
+Deploy Hipster App
+Fault Delay Injection
+Circuit Breaker
+Retry
+Security
+Mirroring
+Authorization on Ingress Gateway
+Add End-User JWT Authentication
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+Kubernetes Troubleshooting
+In this course there is a simulation where students will have to  resolve tickets  (support requests) within an organization. The course is completely hands-on, and runs into  real problems . The teacher will be available to illustrate the diagnostic procedures, workflows to follow to get to the identification of the problem and its consequent resolution.
+
+COD: DSK309
+Categorie: Kubernetes
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Prerequisites
+Basic knowledge of linux commands
+Basic knowledge of linux operating system
+Basic knowledge of TCP/IP stack
+Basic knowledge of terminal text editor (vi,vim,nano)
+
+At the end of the course the participants will be able to:
+Theory
+Understand the procedure for identifying a problem and arriving at its resolution
+Practice
+Resolve tickets that address real issues
+
+Educational program
+Introduction
+Scheduling
+Network
+Terminating state
+Cluster Component #1
+Cluster Component #2
+Cluster Component #3
+Cluster Component #4
+Cluster Component #5
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+
+CKA Exam Prep
+The CKA exam preparation course is designed to provide you with the skills and knowledge necessary to sit for the Certified Kubernetes Administrator exam.
+
+Upon completion of the course, you will be prepared to take the CKA exam and demonstrate your ability to administer Kubernetes clusters in a real-world environment.
+
+Earning the certification, internationally recognized CKA, will attest to your skills as a qualified Kubernetes administrator, opening up new career opportunities in the field of container orchestration.
+
+Get ready for an engaging and stimulating learning experience, led by industry experts, that will provide you with the tools you need to meet the challenges of an increasingly complex Kubernetes environment.
+
+COD: DSK401
+Categorie: Kubernetes
+
+Please note: This course is a preparation for the CKA exam and includes a CKA Exam Participation Voucher.
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Who should participate
+This course is aimed at Kubernetes admins, cloud admins, and other IT professionals who manage Kubernetes instances.
+
+A certified K8s administrator demonstrates the ability to perform basic installations and configure and manage productive Kubernetes clusters. Will have an understanding of key concepts such as Kubernetes networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives, and the ability to establish basic use cases for end users.
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
+
+CKAD Exam Prep
+Upon completion of the course, you will be ready to take the CKAD exam and demonstrate your skills in developing and managing applications within Kubernetes clusters.
+
+Earning the internationally recognized CKAD certification will attest to your skills as a qualified Kubernetes developer, opening up new career opportunities in the field of containerized application development.
+
+Get ready for an engaging and stimulating learning experience, led by industry experts, that will provide you with the tools you need to meet the challenges of an increasingly complex Kubernetes environment.
+
+COD: DSK402
+Categorie: Kubernetes
+
+Please note: This course is a preparation for the CKAD exam and includes a CKAD Exam Participation Voucher.
+
+Teaching methodology
+The course includes educational laboratories in which each student will be able to work in order to complete training exercises that will provide practical experience in using the instrument, for each of the topics covered during the course.
+
+Who should participate
+This course is intended for Kubernetes engineers, cloud engineers, and other IT professionals responsible for building, deploying, and configuring cloud-native applications using Kubernetes.
+
+The CKAD was developed by the Linux Foundation and the Cloud Native Computing Foundation (CNCF), to help expand the Kubernetes ecosystem through standardized training and certification. The exam is an online, verified, performance-based test consisting of a series of performance-based tasks (problems) to be solved in a command line.
+
+Duration – 1 day
+
+Delivery – in Classroom, On Site, Remote
+
+PC and SW requirements:
+
+Internet connection
+Web browser, Google Chrome
+Zoom
+Language
+
+Instructor: English
+Workshops: English
+Slides: English
