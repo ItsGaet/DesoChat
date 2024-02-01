@@ -16,11 +16,11 @@ class ChatPDF:
 
     def __init__(self):
         self.model = ChatOllama(model="mixtral")
-        self.text_splitter = RecursiveCharacterTextSplitter(chunk_size=1024, chunk_overlap=100)
+        self.text_splitter = RecursiveCharacterTextSplitter(chunk_size=512, chunk_overlap=50)
         self.prompt = PromptTemplate.from_template(
             """
             <s> [INST] Sei un tutor per studenti incaricato di trovare il miglior corso per loro. Usa i seguenti pezzi di retrieve context 
-            per rispondere alla domanda. Se non conosci la risposta, rispondi non lo so. Usa 3 frasi al massimo
+            per rispondere alla domanda. Se non conosci la risposta, consiglia di contattare l'email "info@desotech.it". Usa 3 frasi al massimo
              mantenendo la risposta concisa. Rispondi in Italiano. [/INST] </s> 
             [INST] Question: {question} 
             Context: {context} 
