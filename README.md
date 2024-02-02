@@ -7,7 +7,7 @@ curl https://ollama.ai/install.sh | sh
 ```
 
 ```bash
-ollama pull mixtral
+ollama pull stablelm2
 ```
 
 ```bash
